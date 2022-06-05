@@ -10,18 +10,19 @@ pipeline {
                 echo 'Building an application' #execute some command here
             }
         }
-        stage ('Build') {
+        stage ('Test') {
 
             steps {
-                 echo 'Building an application'
+                 echo 'Testing an application'
             }
         }
 
         stage ('Deploy') {
 
             steps {
-                 echo 'Building an application'
+                 echo 'Deploy an application'
             }
         }
     }    
-} 
+}        
+
